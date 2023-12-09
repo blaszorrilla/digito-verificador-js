@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Dígito Verificador</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <form id="formulario">
+        <label for="numeroCedula">Número de Cédula:</label>
+        <input type="number" id="numeroCedula" placeholder="Ingrese el número de cédula" required>
+
+        <button type="button" onclick="calcularDigitoVerificador()">Calcular Dígito Verificador</button>
+
+        <label for="resultado">Resultado:</label>
+        <div id="resultado"></div>
+    </form>
+    <script src="script.js"></script>
+
+</body>
+</html>
